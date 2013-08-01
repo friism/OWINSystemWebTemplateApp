@@ -6,7 +6,7 @@ namespace OWINSystemWebTemplateApp
 	{
 		public void Configuration(IAppBuilder app)
 		{
-			app.UseDiagnosticsPage();
+			app.UseDiagnosticsPage("/");
 		}
 	}
 }
